@@ -6,5 +6,6 @@ const PORT = 3000
 
 app.use("/search", search)
 app.use("/topic", topic)
+app.use("/", test)
 
 app.listen(PORT, () => {console.log("Listening on 3000")})
