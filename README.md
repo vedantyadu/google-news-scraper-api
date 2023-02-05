@@ -5,6 +5,9 @@ It works by web scraping Google News and extracting the relevant content.
 **GET** request on `/topic/{topicname}?country={countryname}&count={articlecount}`
 ## Get news by search term
 **GET** request on `/search/{searchterm}?country={countryname}&count={articlecount}`
+## Allowing origins
+In the `utils/allowedorigins.js`,<br>
+change `const allowedOrigins` to `"*"` to allow requests from all origins or to an `array` of origins to allow request from specific origins.
 ## Sample output
 ```json
 [
