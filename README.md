@@ -2,9 +2,9 @@
 **google-news-scraper-api** is a REST api created using express.js and cheerio.<br>
 It works by web scraping Google News and extracting the relevant content.
 ## Get news by topic
-**GET** request on `/topic/{topicname}?country={countryname}`
+**GET** request on `/topic/{topicname}?country={countryname}&count={articlecount}`
 ## Get news by search term
-**GET** request on `/search/{searchterm}?country={countryname}`
+**GET** request on `/search/{searchterm}?country={countryname}&count={articlecount}`
 ## Sample output
 ```json
 [
