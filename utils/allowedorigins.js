@@ -1,5 +1,5 @@
 
-// Change it to "*" to allow all origin or add origins to the array
+// Use "*" for all origin or an array of allowed origins
 const allowedOrigins = "*"
 
 module.exports = allowedOrigins
