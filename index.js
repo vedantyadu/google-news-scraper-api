@@ -1,6 +1,7 @@
 const express = require("express")
 const topic = require("./routes/topic")
 const search = require("./routes/search")
+const test = require("./routes/test")
 const app = express()
 const PORT = 3000
 
