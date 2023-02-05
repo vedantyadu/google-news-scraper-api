@@ -1,5 +1,5 @@
 
 // Change it to "*" to allow all origin or add origins to the array
-const allowedOrigins = []
+const allowedOrigins = "*"
 
 module.exports = allowedOrigins
